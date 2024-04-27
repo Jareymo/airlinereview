@@ -1,0 +1,27 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "airline-reviws:Verified" "airline-reviws:SeatType" "airline-reviws:Recommended" "airline-reviws:Passenger" "airline-reviws:TypeOfTraveller" "airline-reviws:ValueForMoneyRating" "airline-reviws:DateFlight" "airline-reviws:Aircraft" "airline-reviws:WifiRating" "airline-reviws:Title" "airline-reviws:OverallRating" "airline-reviws:Destination" "airline-reviws:Flight" "airline-reviws:StaffRating" "airline-reviws:FoodAndDrinkRating" "airline-reviws:SeatComfortRating" "airline-reviws:CountryOrigin" "airline-reviws:InflightEntertainmentRating" "airline-reviws:Origin" "airline-reviws:Rating" "airline-reviws:DatePublished" "airline-reviws:Review" "airline-reviws:Body" "airline-reviws:GroundServiceRating" ; /*classes style*/
+	"airline-reviws:FoodAndDrinkRating" -> "airline-reviws:Rating" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:Body" -> "airline-reviws:Review" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:SeatComfortRating" -> "airline-reviws:Rating" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:Origin" -> "airline-reviws:Flight" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:CountryOrigin" -> "airline-reviws:Passenger" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:Recommended" -> "airline-reviws:Review" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:Rating" -> "airline-reviws:Review" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:InflightEntertainmentRating" -> "airline-reviws:Rating" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:DateFlight" -> "airline-reviws:Flight" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:DatePublished" -> "airline-reviws:Review" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:WifiRating" -> "airline-reviws:Rating" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:ValueForMoneyRating" -> "airline-reviws:Rating" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:GroundServiceRating" -> "airline-reviws:Rating" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:Aircraft" -> "airline-reviws:Flight" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:SeatType" -> "airline-reviws:Passenger" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:TypeOfTraveller" -> "airline-reviws:Passenger" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:OverallRating" -> "airline-reviws:Rating" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:Destination" -> "airline-reviws:Flight" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:StaffRating" -> "airline-reviws:Rating" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:Title" -> "airline-reviws:Review" [ label = "rdfs:subClassOf" ];
+	"airline-reviws:Verified" -> "airline-reviws:Review" [ label = "rdfs:subClassOf" ];
+
+}
