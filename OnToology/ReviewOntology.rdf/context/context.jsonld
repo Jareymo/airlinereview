@@ -1,0 +1,145 @@
+{
+  "@context" : {
+    "Verified" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#Verified"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "TypeOfTraveller" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#TypeOfTraveller"
+    },
+    "hasRating" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#hasRating",
+      "@type" : "@id"
+    },
+    "Review" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#Review"
+    },
+    "ValueForMoneyRating" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#ValueForMoneyRating"
+    },
+    "StaffRating" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#StaffRating"
+    },
+    "seatType" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#seatType"
+    },
+    "hasAircraft" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#hasAircraft",
+      "@type" : "@id"
+    },
+    "positive" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#positive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Recommended" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#Recommended"
+    },
+    "satisfied" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#satisfied",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "Body" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#Body"
+    },
+    "DatePublished" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#DatePublished"
+    },
+    "Title" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#Title"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "reviewId" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#reviewId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "OverallRating" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#OverallRating"
+    },
+    "Destination" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#Destination"
+    },
+    "Origin" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#Origin"
+    },
+    "DateFlight" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#DateFlight"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "hasDateFlight" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#hasDateFlight",
+      "@type" : "@id"
+    },
+    "verified" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#verified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "hasFlight" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#hasFlight",
+      "@type" : "@id"
+    },
+    "WifiRating" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#WifiRating"
+    },
+    "Passenger" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#Passenger"
+    },
+    "Rating" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#Rating"
+    },
+    "Aircraft" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#Aircraft"
+    },
+    "GroundServiceRating" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#GroundServiceRating"
+    },
+    "CountryOrigin" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#CountryOrigin"
+    },
+    "SeatComfortRating" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#SeatComfortRating"
+    },
+    "Flight" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#Flight"
+    },
+    "date" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#date",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "rating" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#rating"
+    },
+    "InflightEntertainmentRating" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#InflightEntertainmentRating"
+    },
+    "hasPublishedDate" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#hasPublishedDate",
+      "@type" : "@id"
+    },
+    "FoodAndDrinkRating" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#FoodAndDrinkRating"
+    },
+    "SeatType" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#SeatType"
+    },
+    "hasPassenger" : {
+      "@id" : "http://www.semanticweb.org/jose/ontologies/2024/3/airline-reviws#hasPassenger",
+      "@type" : "@id"
+    }
+  }
+}
